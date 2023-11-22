@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body,
+button {
+  font-family: "NanumSquareNeo-Variable";
+  font-weight: 600;
+}
+
+.container {
+  border: 5px solid #075c2d;
+  border-radius: 15px;
+  width: 550px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: rgb(243, 243, 222);
+  position: relative;
+}
+h2 {
+  font-size: 1.6rem;
+  margin: 22px 25px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+  font-size: 1.1rem;
+}
+.catWrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px 0;
+  border-bottom: #075c2d 2px solid;
+}
+.catWrap .catItem {
+  width: 120px;
+}
+.catWrap .catItem li {
+  padding: 5px 0;
+}
+img {
+  border-radius: 50%;
+  width: 150px;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: #075c2d;
+  color: #fff;
+}
+.btnWrap {
+  display: flex;
+  justify-content: center;
+}
+.btnWrap button {
+  background-color: #075c2d;
+  color: #fff;
+  font-size: 1rem;
+  margin: 30px 10px;
+  padding: 10px 20px;
+  width: 50%;
+}
+.btnWrap button:hover {
+  background-color: #222;
+}
+.addWrap {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.addWrap p {
+  color: #075c2d;
+  font-weight: 700;
+}
+.addWrap input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #075c2d;
+  background-color: transparent;
+  width: 280px;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+.addWrap button {
+  background-color: #075c2d;
+  text-align: right;
+  padding: 5px 20px;
+}
+.addWrap button:hover {
+  background-color: #222;
+}
+label {
+  background-color: #075c2d;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: 60px;
+  right: 70px;
+}
