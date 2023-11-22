@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CatFriends/static/css/main.d1e9549d.css",
+    "main.js": "/CatFriends/static/js/main.b0c7895f.js",
+    "index.html": "/CatFriends/index.html",
+    "main.d1e9549d.css.map": "/CatFriends/static/css/main.d1e9549d.css.map",
+    "main.b0c7895f.js.map": "/CatFriends/static/js/main.b0c7895f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1e9549d.css",
+    "static/js/main.b0c7895f.js"
+  ]
+}
